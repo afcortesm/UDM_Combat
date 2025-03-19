@@ -1,4 +1,3 @@
-!\[badge 1\](https://badgen.net/badge/hello/world/red?icon=twitter)
 # UDM NBS Combat
 Repository for the evaluation of LIDs in the context of the UDM Combat. 
 
