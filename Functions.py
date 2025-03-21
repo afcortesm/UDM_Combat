@@ -30,12 +30,15 @@ p1 = r"C:\Python\UDM_Battle\To_Evaluate"
 p2 = r"C:\Python\UDM_Battle\Results"
 p3 = r"C:\Python\UDM_Battle\Storage"
 out_decision = 1
+
+# Start date: YYYY/M/D hh:mm:ss
 y1 = 2018
 m1 = 8
 d1 = 24
 h1 = 20
 mi1 = 45
 s1 = 00
+# End date: YYYY/M/D hh:mm:ss
 y2 = 2018
 m2 = 8
 d2 = 24
