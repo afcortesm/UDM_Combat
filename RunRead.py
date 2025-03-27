@@ -12,8 +12,6 @@ Code to run every .inp file and extract the values for the evaluation parameters
 """
 Code to read .inp, run the simulation and read the .rpt
 """
-p1 = r"C:\Python\UDM_Battle\To_Evaluate"
-p2 = r"C:\Python\UDM_Battle\Results"
 
 """
 p1 is the path to the folder where the .inp to run are stored

@@ -78,6 +78,12 @@ def Original(p,y1,m1,d1,h1,mi1,s1,y2,m2,d2,h2,mi2,s2):
     CSO = rpt.outfall_loading_summary.loc['CSO_overflow','Total_Volume_10^6 ltr']
     Mtss = rpt.outfall_loading_summary.loc['CSO_overflow','Total_TSS_kg']
     
+    for file_name in os.listdir(p):
+            if file_name.endswith((".out")):
+                source_path = os.path.join(p,file_name)
+                os.remove(source_path)
+        
+    
     return(Flood,Evapo,WWTP,CSO,Mtss)     
         
         
