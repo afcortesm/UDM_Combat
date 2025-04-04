@@ -11,7 +11,7 @@ file to test the functions
 
 import os
 
-os.chdir(r"C:\Python\UDM_Battle\Tests")
+os.chdir(r"C:\Users\acortesmoreno\OneDrive - Delft University of Technology\Solutions_UDM\02_Evaluation\04_Code")
 
 import pyswmm
 import pandas as pd
@@ -24,6 +24,7 @@ import pathlib
 import Clear
 import RunRead
 import Original
+import Topsis
 
 p0 = r"C:\Users\acortesmoreno\OneDrive - Delft University of Technology\Solutions_UDM\02_Evaluation\05_Original"
 p1 = r"C:\Users\acortesmoreno\OneDrive - Delft University of Technology\Solutions_UDM\02_Evaluation\01_Evaluate"
@@ -52,5 +53,7 @@ var = Original.Original(p0,y1,m1,d1,h1,mi1,s1,y2,m2,d2,h2,mi2,s2)
 RunRead.RunRead(p1, p2,var[0],var[1],var[3],var[2],var[4],y1,m1,d1,h1,mi1,s1,y2,m2,d2,h2,mi2,s2)
 
 Clear.Clear(p1, p2, p3, out_decision)
+
+Topsis.TOPSIS(p2)
 
 
