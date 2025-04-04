@@ -15,7 +15,7 @@ def TOPSIS(path):
     import numpy as np
     import os
 
-    os.chdir(r"C:\Python\UDM_Battle\Results")
+    os.chdir(path)
 
     """
     The following line reads the files and looks for the Result file
@@ -62,5 +62,5 @@ def TOPSIS(path):
         "Topsis_score": relative_closeness
     }).sort_values(by="Topsis_score", ascending = False)
 
-    topsis.to_csv(Topsis.csv,index=False)
+    topsis.to_csv("Topsis.csv",index=False)
 

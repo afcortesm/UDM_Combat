@@ -34,15 +34,15 @@ out_decision = 1
 
 # Start date: YYYY/M/D hh:mm:ss
 y1 = 2018
-m1 = 1
-d1 = 1
+m1 = 8
+d1 = 20
 h1 = 00
 mi1 = 00
 s1 = 00
 # End date: YYYY/M/D hh:mm:ss
-y2 = 2019
-m2 = 1
-d2 = 1
+y2 = 2018
+m2 = 8
+d2 = 24
 h2 = 00
 mi2 = 00
 s2 = 00
