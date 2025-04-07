@@ -94,7 +94,7 @@ def RunRead(p1,p2,fl,ev,cs,ww,mt,y1,m1,d1,h1,mi1,s1,y2,m2,d2,h2,mi2,s2):
     
     os.chdir(path_2)
     
-    if "results.csv" in os.listdir(path_2):
+    if "Results.csv" in os.listdir(path_2):
         results = pd.read_csv("Results.csv")
     else:
         results = pd.DataFrame(columns=['Name','Total_Cost','Biodiversity','Flood','Evaporation','Flow_WWTP','CSO','Pollutant_Load'])
