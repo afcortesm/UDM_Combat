@@ -153,9 +153,7 @@ lid_types = ['Soakaway',
     'Cistern'    
     ]
 
-BGIs['cost'] = BGIs['area']*BGIs['lid'].map(lid_unit_costs) + BGIs['lid'].map(lid_base_costs)
-    
-Tot_Cost = BGIs['cost'].sum()
+
  
 
 Biodiversity = BGIs.groupby('lid')['area'].sum()
